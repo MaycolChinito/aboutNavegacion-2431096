@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aboutNavegacion.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout  Margin="20,35,20,20">
+
+            <Image Source="dolares.png" WidthRequest="300"
+                SemanticProperties.Description="No hay sistema, vuelva otro rato!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="App Cambio" x:Name="Cambio" Clicked="Cambio_Clicked"/>
+            
+            <Image Source="triangulos.png" WidthRequest="300"
+                SemanticProperties.Description="No hay sistema, vuelva otro rato!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="App Superfice" x:Name="Superficie" Clicked="Superficie_Clicked"/>
+            
+            <Image Source="dinosaurio.jpeg" WidthRequest="300"
+                SemanticProperties.Description="No hay sistema, vuelva otro rato!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="App Dinosaurio" x:Name="Dinosaurio" Clicked="Dinosaurio_Clicked"/>
+            
+            <Image Source="gasolineria.jpeg" WidthRequest="300"
+                SemanticProperties.Description="No hay sistema, vuelva otro rato!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="App gasolineria" x:Name="Gasolineria" Clicked="Gasolineria_Clicked"/>
+            
+            <Image Source="about.jpeg" WidthRequest="300"
+                SemanticProperties.Description="No hay sistema, vuelva otro rato!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="About us " x:Name="aboutNavegacion" Clicked="aboutNavegacion_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

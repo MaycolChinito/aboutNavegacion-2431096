@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aboutNavegacion.dinosaurioprac15"
+             Title="dinosaurioprac15">
+    <VerticalStackLayout Margin="20,35,20,20">
+
+        <Image Source="dinosaurio.jpeg" WidthRequest="200"/>
+
+        <Label Margin="10, 10, 10, 10">Peso en kilogramos:</Label>
+
+        <Entry x:Name="Peso" Placeholder="Ingrese el peso en kg"
+                   Keyboard="Numeric"/>
+
+        <Button Text="Calcular el peso en lbs"
+                    Clicked="Button_Clicked"/>
+
+        <Label Margin="10, 10, 10, 10">Peso en libras calculado:</Label>
+
+        <Entry x:Name="Pesado" Placeholder="libras"
+                   Keyboard="Numeric"/>
+
+        <Label Margin="10, 10, 10, 10">Altura en metros:</Label>
+
+        <Entry x:Name="Altura" Placeholder="Ingrese la altura en metros"
+                   Keyboard="Numeric"/>
+
+        <Button Text="Calcular la altura en cm"
+                    Clicked="Button_Clicked_1"/>
+
+        <Label Margin="10, 10, 10, 10">Altura en centimetros calculado:</Label>
+
+        <Entry x:Name="AlturaMedida" Placeholder="centimetros"
+                   Keyboard="Numeric"/> 
+        
+    </VerticalStackLayout>
+</ContentPage>
